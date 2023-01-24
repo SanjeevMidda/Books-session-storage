@@ -1,0 +1,60 @@
+*{
+    margin: 10px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+form{
+    display: flex;
+    border-bottom: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    background: rgb(31, 195, 31);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    font-size: 15px;
+    margin-left: 40px;
+    transition: background-color 400ms;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+div{
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40vw;
+}
+
+div button{
+    background-color: orange;
+}
+
+div button:hover{
+    background-color: red;
+}
+
+.removeBook{
+    display: none;
+}
